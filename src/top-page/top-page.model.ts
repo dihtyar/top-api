@@ -4,8 +4,8 @@ export enum TopLevelCategory {
 	Books,
 	Products,
 }
-
 export class TopPageModel {
+	_id: string;
 	firstCategory: TopLevelCategory;
 	secondCategoty: string;
 	title: string;
